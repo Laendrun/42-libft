@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 23:33:51 by saeby             #+#    #+#             */
-/*   Updated: 2023/03/12 15:01:49 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/26 17:03:55 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_isalnum.c
- * @author saeby (saeby@42lausanne.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-28
  */

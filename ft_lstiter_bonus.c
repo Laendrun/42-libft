@@ -6,13 +6,13 @@
 /*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 19:24:31 by saeby             #+#    #+#             */
-/*   Updated: 2022/10/29 18:08:33 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/26 17:04:56 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_lstiter_bonus.c
- * @author saeby (saeby@42lausanne.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-29
  */

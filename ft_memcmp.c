@@ -3,15 +3,32 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 22:51:57 by saeby             #+#    #+#             */
-/*   Updated: 2022/11/30 13:03:31 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 16:22:39 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_memcmp.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
+/**
+ * @fn int ft_memcmp(const void *s1, const void *s2, size_t n)
+ * Compares byte string s1 against byte string s2. 
+ * Both string are assumed to be n bytes long
+ * @param s1 first byte string
+ * @param s2 second byte string
+ * @param n length of both byte strings
+ * @return int
+ * @retval 0 if both strign are identical
+ * @retval difference between the first two differing bytes
+*/
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned char	*str1;
@@ -29,23 +46,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/*
-int	ft_memcmp(const void *s1, const void *s2, size_t n)
-{
-	unsigned char	*str1;
-	unsigned char	*str2;
-	size_t			i;
-
-	str1 = (unsigned char *) s1;
-	str2 = (unsigned char *) s2;
-	i = 0;
-	while (i < n)
-	{
-		if ((unsigned char) str1[i] != (unsigned char) str2[i])
-			return ((unsigned char) str1[i] - (unsigned char) str2[i]);
-		i++;
-	}
-	return (0);
-}
-*/

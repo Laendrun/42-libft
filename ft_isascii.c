@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 23:26:34 by saeby             #+#    #+#             */
-/*   Updated: 2023/03/12 15:03:31 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/26 17:04:11 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_isascii.c
- * @author saeby (saeby@42lausanne.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-29
  */

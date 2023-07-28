@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 23:34:30 by saeby             #+#    #+#             */
-/*   Updated: 2023/03/12 15:01:53 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/26 17:03:59 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_isalpha.c
- * @author saeby (saeby@42lausanne.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-29
  */

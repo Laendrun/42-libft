@@ -1,6 +1,6 @@
 # 42-libft
 
-## 📕 About the project
+## About the project
 
 *libft* is the very first project of the 42 cursus.
 

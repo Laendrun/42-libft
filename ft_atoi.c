@@ -6,13 +6,13 @@
 /*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 23:07:19 by saeby             #+#    #+#             */
-/*   Updated: 2022/10/29 08:55:54 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 16:10:34 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_atoi.c
- * @author saeby (saeby@42lausanne.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-28
  */
@@ -26,7 +26,8 @@ static int	ft_isspace(int c);
  * pointed to by str to int representation.
  * @brief Converts a string to an int.
  * @param str string to convert.
- * @retval int representation of the string
+ * @return int
+ * @retval representation of the string
  */
 int	ft_atoi(const char *str)
 {

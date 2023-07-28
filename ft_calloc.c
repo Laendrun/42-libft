@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 23:49:55 by saeby             #+#    #+#             */
-/*   Updated: 2023/03/12 14:56:27 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 16:10:56 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_calloc.c
- * @author saeby (saeby@42lausanne.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-28
  */
@@ -27,6 +27,7 @@
  * @brief Allocate count * size bytes of value 0.
  * @param count number of elements to allocate
  * @param size size of one element 
+ * @return void *
  * @retval void* pointer to the allocated memory
  */
 void	*ft_calloc(size_t count, size_t size)

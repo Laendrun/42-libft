@@ -6,13 +6,13 @@
 /*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 22:57:18 by saeby             #+#    #+#             */
-/*   Updated: 2022/10/29 17:51:41 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/26 17:04:29 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_itoa.c
- * @author saeby (saeby@42lausanne.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-29
  */

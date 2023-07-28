@@ -6,13 +6,13 @@
 /*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 23:31:08 by saeby             #+#    #+#             */
-/*   Updated: 2022/10/29 08:00:45 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/26 17:03:43 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_bzero.c
- * @author saeby (saeby@42lausane.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-28
  */

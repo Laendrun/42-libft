@@ -6,13 +6,13 @@
 /*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 19:03:40 by saeby             #+#    #+#             */
-/*   Updated: 2022/10/29 18:03:13 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/26 17:04:42 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_lstclear_bonus.c
- * @author saeby (saeby@42lausanne.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-29
  */

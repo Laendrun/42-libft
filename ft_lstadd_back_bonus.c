@@ -6,13 +6,13 @@
 /*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 18:38:43 by saeby             #+#    #+#             */
-/*   Updated: 2022/10/29 17:57:01 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/26 17:04:34 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
  * @file ft_lstadd_back_bonus.c
- * @author saeby (saeby@42lausane.ch)
+ * @author saeby
  * @version 1.0
  * @date 2022-10-29
  */
