@@ -3,15 +3,32 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 22:54:58 by saeby             #+#    #+#             */
-/*   Updated: 2022/10/25 10:34:27 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 16:32:15 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_memmove.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
+/**
+ * @fn void *ft_memmove(void *dst, const void *src, size_t len)
+ * Copies len bytes from src to dst. The two strings may overlap.
+ * The copy is always done in a non-destructive manner.
+ * @param dst destination pointer to where the src is copied.
+ * @param src source pointer to where the content is currently stored
+ * @param len number of bytes to copy from src to dst.
+ * @return void *
+ * @retval NULL if either dst or src is NULL
+ * @retval pointer to dst
+*/
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	char	*uc_src;

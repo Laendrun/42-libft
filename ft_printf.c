@@ -3,15 +3,42 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 10:55:16 by saeby             #+#    #+#             */
-/*   Updated: 2022/12/26 12:54:09 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 16:51:46 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_printf.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
+/**
+ * @fn int ft_printf(const char *input_str, ...)
+ * Formats and prints its arguments after the first, which is the format string
+ * The format string is composed of two types of characters :
+ * - Plain characters are simply copied to stdout
+ * - Escaped characters which are converted then copied to stdout
+ * 
+ * Formats always start with a % sign and are followed by one of :
+ * - %, prints a % sign
+ * - c, prints a char
+ * - d, prints an int
+ * - i, prints an int
+ * - u, prints an unsgined int
+ * - x, prints an hexadecimal number (lowercase letters)
+ * - X, prints an hexadecimal number (uppercase letters)
+ * - p, prints a pointer address
+ * @param input_str input format string to be converted
+ * @param ... arguments to replace the escaped chars in the format string
+ * @return int
+ * @retval number of characters printed to stdout
+*/
 static int	_check_format(const char *input_str, va_list *params, int i);
 
 int	ft_printf(const char *input_str, ...)

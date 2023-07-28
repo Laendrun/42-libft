@@ -3,18 +3,39 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 23:08:40 by saeby             #+#    #+#             */
-/*   Updated: 2023/03/12 15:50:53 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 17:45:25 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_strlcat.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
 //https://opensource.apple.com/source/Libc/Libc-997.1.1/
 //string/strlcat.c.auto.html
 
+/**
+ * @fn size_t ft_strlcat(char *dst, const char *src, size_t dstsize)
+ * Appends the string src to the end of dst. It will append at most
+ * dstsize - ft_strlen(dst) - 1 characters. It will then NULL terminate the
+ * result, unless dstsize is 0 or the original dst was longer than dstsize.
+ * Both dst and src have to be NULL terminated strings.
+ * Room for the terminating NULL character should be included in dstsize.
+ * ft_strlcat will always return the length of the string it tried to create
+ * even if it didn't create it.
+ * @param dst destination pointer, src will be appended to the end of dst
+ * @param src string to append at the end of dst
+ * @param dstsize maximum size of src to append to dst
+ * @return size_t
+ * @retval orignal length of src + orginal length of dst
+*/
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t			src_len;

@@ -3,19 +3,34 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 09:37:27 by saeby             #+#    #+#             */
-/*   Updated: 2022/10/25 15:27:40 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 18:29:08 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_strtrim.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
-#include <stdio.h>
 
 static int	to_trim(const char *set, char c);
 static char	*new_str(const char *s1, size_t start, size_t end);
 
+/**
+ * @fn char *ft_strtrim(const char *s1, const char *set)
+ * Trims the characters from set from the start and end of the string s1
+ * @param s1 string to trim
+ * @param set set of characters to remove from the beggining and end
+ * of the string s1
+ * @return char*
+ * @retval NULL if allocation failed
+ * @retval pointer to the new string
+*/
 char	*ft_strtrim(const char *s1, const char *set)
 {
 	int		i;
@@ -65,9 +80,3 @@ static int	to_trim(const char *set, char c)
 	}
 	return (0);
 }
-/*
-int main()
-{
-	printf("%s", ft_strtrim("abcdba", "acb"));
-}
-*/

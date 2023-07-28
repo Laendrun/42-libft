@@ -3,15 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 23:30:52 by saeby             #+#    #+#             */
-/*   Updated: 2023/03/12 15:08:10 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 17:03:37 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_putnbr.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
+/**
+ * @fn ft_putnbr(int n)
+ * Writes the number n to stdout
+ * @param n number to write
+*/
 void	ft_putnbr(int n)
 {
 	char	digit;

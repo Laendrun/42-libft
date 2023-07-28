@@ -3,15 +3,27 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 11:31:38 by saeby             #+#    #+#             */
-/*   Updated: 2022/09/27 11:38:45 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 17:02:56 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_putnbr.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
+/**
+ * @fn void ft_putnbr_fd(int n, int fd)
+ * Writes the number n to the file descriptor fd
+ * @param n number to write
+ * @param fd file descriptor to write to
+*/
 void	ft_putnbr_fd(int n, int fd)
 {
 	char	digit;

@@ -3,15 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 09:58:01 by saeby             #+#    #+#             */
-/*   Updated: 2023/03/12 15:39:42 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 17:15:59 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_split.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
+/**
+ * @fn char **ft_split(const char *s, char c)
+ * Splits the string s on the char c and returns an array of string pointers
+ * @param s string to split
+ * @param c char to split the string on
+ * @return char**
+ * @retval NULL terminated array of char*
+*/
 static int	count_words(const char *s, char c);
 static char	*f_word(const char *str, size_t s, size_t e);
 

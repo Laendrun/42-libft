@@ -3,15 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 22:32:15 by saeby             #+#    #+#             */
-/*   Updated: 2022/12/30 11:05:10 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 17:35:05 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_strjoin.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
+/**
+ * @fn char *ft_strjoin(char const *s1, char const *s2)
+ * Allocates a new memory zone to store the concatenated s1 and s2 strings.
+ * @param s1 first string
+ * @param s2 string to append to the end of s1
+ * @return char*
+ * @retval NULL if the allocation failed
+ * @retval pointer to the newly allocated memory zone containing both strings
+ * concatenated
+*/
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*res;

@@ -3,15 +3,30 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 14:29:07 by saeby             #+#    #+#             */
-/*   Updated: 2022/10/23 13:55:21 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 18:23:35 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @file ft_strrchr.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
+/**
+ * @fn char *ft_strrchr(const char *s, int c)
+ * Searches for the last occurence of char c in the string s.
+ * @param s string in which to search
+ * @param c character to search for in s
+ * @return char*
+ * @retval NULL if c is not found in s
+ * @retval pointer to the last occurence of c in string s
+*/
 char	*ft_strrchr(const char *s, int c)
 {
 	unsigned int	i;

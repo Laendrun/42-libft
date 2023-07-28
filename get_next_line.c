@@ -3,24 +3,35 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saeby <saeby@student.42.fr>                +#+  +:+       +#+        */
+/*   By: saeby <saeby>                              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 10:27:11 by saeby             #+#    #+#             */
-/*   Updated: 2022/12/26 12:55:12 by saeby            ###   ########.fr       */
+/*   Updated: 2023/07/28 18:41:40 by saeby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
- * ssize_t type => signed size_t
- * can be -1 which is the result of an error for
- * most system calls
- */
-
+/**
+ * @file get_next_line.c
+ * @author saeby
+ * @version 1.0
+ * @date 2023-07-28
+*/
 #include "libft.h"
 
 static char		*_fill_line_buffer(int fd, char *left_c, char *buffer);
 static char		*_set_line(char *line);
 
+/**
+ * @fn char *get_next_line(int fd)
+ * Returns an allocated string containing the next line in the file
+ * descriptor fd
+ * A line is all content in a file descriptor until a \n is found
+ * @param fd file descriptor from which to read from
+ * @return char*
+ * @retval NULL if fd is invalid or if there's an error reading the file
+ * descriptor, or if allocation failed, or if a EOF is found
+ * @retval allocated string containing the next line in the file
+*/
 char	*get_next_line(int fd)
 {
 	static char	*left_c[MAX_FD];
